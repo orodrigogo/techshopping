@@ -1,0 +1,11 @@
+C:\Users\SENAC\Documents\AULAS REMOTAS\UNIFAFIBE\_2 SEGUNDO SEMESTRE\5 - [SÁBADO] - DP Programação IV\AULA_PROGIV\techshopping\BusinessLogicLayer\bin\Debug\BusinessLogicLayer.dll
+C:\Users\SENAC\Documents\AULAS REMOTAS\UNIFAFIBE\_2 SEGUNDO SEMESTRE\5 - [SÁBADO] - DP Programação IV\AULA_PROGIV\techshopping\BusinessLogicLayer\bin\Debug\BusinessLogicLayer.pdb
+C:\Users\SENAC\Documents\AULAS REMOTAS\UNIFAFIBE\_2 SEGUNDO SEMESTRE\5 - [SÁBADO] - DP Programação IV\AULA_PROGIV\techshopping\BusinessLogicLayer\bin\Debug\DataAccessLayer.dll
+C:\Users\SENAC\Documents\AULAS REMOTAS\UNIFAFIBE\_2 SEGUNDO SEMESTRE\5 - [SÁBADO] - DP Programação IV\AULA_PROGIV\techshopping\BusinessLogicLayer\bin\Debug\DataTransferObject.dll
+C:\Users\SENAC\Documents\AULAS REMOTAS\UNIFAFIBE\_2 SEGUNDO SEMESTRE\5 - [SÁBADO] - DP Programação IV\AULA_PROGIV\techshopping\BusinessLogicLayer\bin\Debug\DataAccessLayer.pdb
+C:\Users\SENAC\Documents\AULAS REMOTAS\UNIFAFIBE\_2 SEGUNDO SEMESTRE\5 - [SÁBADO] - DP Programação IV\AULA_PROGIV\techshopping\BusinessLogicLayer\bin\Debug\DataTransferObject.pdb
+C:\Users\SENAC\Documents\AULAS REMOTAS\UNIFAFIBE\_2 SEGUNDO SEMESTRE\5 - [SÁBADO] - DP Programação IV\AULA_PROGIV\techshopping\BusinessLogicLayer\obj\Debug\BusinessLogicLayer.csprojAssemblyReference.cache
+C:\Users\SENAC\Documents\AULAS REMOTAS\UNIFAFIBE\_2 SEGUNDO SEMESTRE\5 - [SÁBADO] - DP Programação IV\AULA_PROGIV\techshopping\BusinessLogicLayer\obj\Debug\BusinessLogicLayer.csproj.CoreCompileInputs.cache
+C:\Users\SENAC\Documents\AULAS REMOTAS\UNIFAFIBE\_2 SEGUNDO SEMESTRE\5 - [SÁBADO] - DP Programação IV\AULA_PROGIV\techshopping\BusinessLogicLayer\obj\Debug\BusinessLogicLayer.csproj.CopyComplete
+C:\Users\SENAC\Documents\AULAS REMOTAS\UNIFAFIBE\_2 SEGUNDO SEMESTRE\5 - [SÁBADO] - DP Programação IV\AULA_PROGIV\techshopping\BusinessLogicLayer\obj\Debug\BusinessLogicLayer.dll
+C:\Users\SENAC\Documents\AULAS REMOTAS\UNIFAFIBE\_2 SEGUNDO SEMESTRE\5 - [SÁBADO] - DP Programação IV\AULA_PROGIV\techshopping\BusinessLogicLayer\obj\Debug\BusinessLogicLayer.pdb

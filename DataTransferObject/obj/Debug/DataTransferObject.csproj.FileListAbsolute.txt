@@ -1,0 +1,5 @@
+C:\Users\SENAC\Documents\AULAS REMOTAS\UNIFAFIBE\_2 SEGUNDO SEMESTRE\5 - [SÁBADO] - DP Programação IV\AULA_PROGIV\techshopping\DataTransferObject\bin\Debug\DataTransferObject.dll
+C:\Users\SENAC\Documents\AULAS REMOTAS\UNIFAFIBE\_2 SEGUNDO SEMESTRE\5 - [SÁBADO] - DP Programação IV\AULA_PROGIV\techshopping\DataTransferObject\bin\Debug\DataTransferObject.pdb
+C:\Users\SENAC\Documents\AULAS REMOTAS\UNIFAFIBE\_2 SEGUNDO SEMESTRE\5 - [SÁBADO] - DP Programação IV\AULA_PROGIV\techshopping\DataTransferObject\obj\Debug\DataTransferObject.csproj.CoreCompileInputs.cache
+C:\Users\SENAC\Documents\AULAS REMOTAS\UNIFAFIBE\_2 SEGUNDO SEMESTRE\5 - [SÁBADO] - DP Programação IV\AULA_PROGIV\techshopping\DataTransferObject\obj\Debug\DataTransferObject.dll
+C:\Users\SENAC\Documents\AULAS REMOTAS\UNIFAFIBE\_2 SEGUNDO SEMESTRE\5 - [SÁBADO] - DP Programação IV\AULA_PROGIV\techshopping\DataTransferObject\obj\Debug\DataTransferObject.pdb
