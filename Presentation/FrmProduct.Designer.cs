@@ -28,7 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
+            this.components = new System.ComponentModel.Container();
+            this.lblFormTitle = new System.Windows.Forms.Label();
             this.txtBarCode = new System.Windows.Forms.TextBox();
             this.txtDescription = new System.Windows.Forms.TextBox();
             this.cbxUnitType = new System.Windows.Forms.ComboBox();
@@ -50,20 +51,22 @@
             this.nudMinimumQuantity = new System.Windows.Forms.NumericUpDown();
             this.nudMaximumQuantity = new System.Windows.Forms.NumericUpDown();
             this.nudCurrentQuantity = new System.Windows.Forms.NumericUpDown();
+            this.errorProvider = new System.Windows.Forms.ErrorProvider(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.nudMinimumQuantity)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.nudMaximumQuantity)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.nudCurrentQuantity)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider)).BeginInit();
             this.SuspendLayout();
             // 
-            // label1
+            // lblFormTitle
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(20, 43);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(389, 46);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Cadastro de Produto";
+            this.lblFormTitle.AutoSize = true;
+            this.lblFormTitle.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblFormTitle.Location = new System.Drawing.Point(20, 43);
+            this.lblFormTitle.Name = "lblFormTitle";
+            this.lblFormTitle.Size = new System.Drawing.Size(389, 46);
+            this.lblFormTitle.TabIndex = 0;
+            this.lblFormTitle.Text = "Cadastro de Produto";
             // 
             // txtBarCode
             // 
@@ -83,6 +86,7 @@
             // 
             // cbxUnitType
             // 
+            this.cbxUnitType.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbxUnitType.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbxUnitType.FormattingEnabled = true;
             this.cbxUnitType.Location = new System.Drawing.Point(562, 390);
@@ -128,7 +132,7 @@
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(134, 25);
             this.label5.TabIndex = 10;
-            this.label5.Text = "Qtde. Mínimo:";
+            this.label5.Text = "Qtde. Mínima:";
             // 
             // label6
             // 
@@ -138,7 +142,7 @@
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(140, 25);
             this.label6.TabIndex = 11;
-            this.label6.Text = "Qtde. Máximo:";
+            this.label6.Text = "Qtde. Máxima:";
             // 
             // label7
             // 
@@ -224,6 +228,7 @@
             this.btnSave.TabIndex = 20;
             this.btnSave.Text = "Salvar";
             this.btnSave.UseVisualStyleBackColor = true;
+            this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
             // 
             // btnCancel
             // 
@@ -259,7 +264,11 @@
             this.nudCurrentQuantity.Size = new System.Drawing.Size(136, 41);
             this.nudCurrentQuantity.TabIndex = 24;
             // 
-            // Product
+            // errorProvider
+            // 
+            this.errorProvider.ContainerControl = this;
+            // 
+            // FrmProduct
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -285,12 +294,13 @@
             this.Controls.Add(this.cbxUnitType);
             this.Controls.Add(this.txtDescription);
             this.Controls.Add(this.txtBarCode);
-            this.Controls.Add(this.label1);
-            this.Name = "Product";
+            this.Controls.Add(this.lblFormTitle);
+            this.Name = "FrmProduct";
             this.Text = "Product";
             ((System.ComponentModel.ISupportInitialize)(this.nudMinimumQuantity)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.nudMaximumQuantity)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.nudCurrentQuantity)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -298,7 +308,7 @@
 
         #endregion
 
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label lblFormTitle;
         private System.Windows.Forms.TextBox txtBarCode;
         private System.Windows.Forms.TextBox txtDescription;
         private System.Windows.Forms.ComboBox cbxUnitType;
@@ -320,5 +330,6 @@
         private System.Windows.Forms.NumericUpDown nudMinimumQuantity;
         private System.Windows.Forms.NumericUpDown nudMaximumQuantity;
         private System.Windows.Forms.NumericUpDown nudCurrentQuantity;
+        private System.Windows.Forms.ErrorProvider errorProvider;
     }
 }

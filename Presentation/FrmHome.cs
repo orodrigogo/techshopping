@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DataTransferObject;
+using System;
 using System.Windows.Forms;
 
 namespace Presentation
@@ -20,8 +21,8 @@ namespace Presentation
 
         private void btnProduct_Click(object sender, EventArgs e)
         {
-            FrmProduct frmProduct = new FrmProduct();
-            frmProduct.ShowDialog();
+            FrmProductList frmProductList = new FrmProductList();
+            frmProductList.ShowDialog();
         }
     }
 }
