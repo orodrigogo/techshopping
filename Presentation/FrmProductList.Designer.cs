@@ -29,8 +29,6 @@
         private void InitializeComponent()
         {
             this.dgvProducts = new System.Windows.Forms.DataGridView();
-            this.btnEdit = new System.Windows.Forms.Button();
-            this.btnNew = new System.Windows.Forms.Button();
             this.id = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.barcode = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.product_description = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -43,6 +41,9 @@
             this.percentage_profit = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.sale_price = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.active = new System.Windows.Forms.DataGridViewCheckBoxColumn();
+            this.btnEdit = new System.Windows.Forms.Button();
+            this.btnNew = new System.Windows.Forms.Button();
+            this.btnSelect = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgvProducts)).BeginInit();
             this.SuspendLayout();
             // 
@@ -73,26 +74,6 @@
             this.dgvProducts.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dgvProducts.Size = new System.Drawing.Size(1286, 672);
             this.dgvProducts.TabIndex = 0;
-            // 
-            // btnEdit
-            // 
-            this.btnEdit.Location = new System.Drawing.Point(624, 12);
-            this.btnEdit.Name = "btnEdit";
-            this.btnEdit.Size = new System.Drawing.Size(129, 67);
-            this.btnEdit.TabIndex = 1;
-            this.btnEdit.Text = "Editar Produto";
-            this.btnEdit.UseVisualStyleBackColor = true;
-            this.btnEdit.Click += new System.EventHandler(this.btnEdit_Click);
-            // 
-            // btnNew
-            // 
-            this.btnNew.Location = new System.Drawing.Point(457, 12);
-            this.btnNew.Name = "btnNew";
-            this.btnNew.Size = new System.Drawing.Size(129, 67);
-            this.btnNew.TabIndex = 2;
-            this.btnNew.Text = "Novo Produto";
-            this.btnNew.UseVisualStyleBackColor = true;
-            this.btnNew.Click += new System.EventHandler(this.btnNew_Click);
             // 
             // id
             // 
@@ -203,11 +184,42 @@
             this.active.ReadOnly = true;
             this.active.Width = 125;
             // 
+            // btnEdit
+            // 
+            this.btnEdit.Location = new System.Drawing.Point(172, 12);
+            this.btnEdit.Name = "btnEdit";
+            this.btnEdit.Size = new System.Drawing.Size(129, 67);
+            this.btnEdit.TabIndex = 1;
+            this.btnEdit.Text = "Editar Produto";
+            this.btnEdit.UseVisualStyleBackColor = true;
+            this.btnEdit.Click += new System.EventHandler(this.btnEdit_Click);
+            // 
+            // btnNew
+            // 
+            this.btnNew.Location = new System.Drawing.Point(12, 12);
+            this.btnNew.Name = "btnNew";
+            this.btnNew.Size = new System.Drawing.Size(129, 67);
+            this.btnNew.TabIndex = 2;
+            this.btnNew.Text = "Novo Produto";
+            this.btnNew.UseVisualStyleBackColor = true;
+            this.btnNew.Click += new System.EventHandler(this.btnNew_Click);
+            // 
+            // btnSelect
+            // 
+            this.btnSelect.Location = new System.Drawing.Point(1128, 12);
+            this.btnSelect.Name = "btnSelect";
+            this.btnSelect.Size = new System.Drawing.Size(170, 67);
+            this.btnSelect.TabIndex = 3;
+            this.btnSelect.Text = "Selecionar Produto";
+            this.btnSelect.UseVisualStyleBackColor = true;
+            this.btnSelect.Click += new System.EventHandler(this.btnSelect_Click);
+            // 
             // FrmProductList
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1310, 784);
+            this.Controls.Add(this.btnSelect);
             this.Controls.Add(this.btnNew);
             this.Controls.Add(this.btnEdit);
             this.Controls.Add(this.dgvProducts);
@@ -235,5 +247,6 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn percentage_profit;
         private System.Windows.Forms.DataGridViewTextBoxColumn sale_price;
         private System.Windows.Forms.DataGridViewCheckBoxColumn active;
+        private System.Windows.Forms.Button btnSelect;
     }
 }

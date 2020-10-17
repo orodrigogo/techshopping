@@ -3,6 +3,8 @@
     public enum TypeAction
     {
         Create,
-        Update
+        Update,
+        Select,
+        Search,
     }
 }

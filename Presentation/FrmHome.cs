@@ -21,8 +21,20 @@ namespace Presentation
 
         private void btnProduct_Click(object sender, EventArgs e)
         {
-            FrmProductList frmProductList = new FrmProductList();
+            FrmProductList frmProductList = new FrmProductList(TypeAction.Search);
             frmProductList.ShowDialog();
+        }
+
+        private void btnSales_Click(object sender, EventArgs e)
+        {
+            FrmSale frmSale = new FrmSale();
+            frmSale.ShowDialog();
+        }
+
+        private void btmSaleHistory_Click(object sender, EventArgs e)
+        {
+            FrmSaleHistory frmSaleHistory = new FrmSaleHistory();
+            frmSaleHistory.ShowDialog();
         }
     }
 }

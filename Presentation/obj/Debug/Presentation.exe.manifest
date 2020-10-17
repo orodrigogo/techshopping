@@ -42,14 +42,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="BusinessLogicLayer.dll" size="7168">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="BusinessLogicLayer.dll" size="8704">
       <assemblyIdentity name="BusinessLogicLayer" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>TU42AvqIwAzf0AXpa/0+0CbUwk0TRsI1g6kXDPcF9CU=</dsig:DigestValue>
+        <dsig:DigestValue>dCReMeeooMQtRrEbSRUon7frEjH8BdV9lO81EmqG9FA=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -66,26 +66,26 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="DataTransferObject.dll" size="6656">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="DataTransferObject.dll" size="7680">
       <assemblyIdentity name="DataTransferObject" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>Gv6R6REkWqzgcxcZSKDM6qlHxPZZd1ZNBD6TEsXzeAA=</dsig:DigestValue>
+        <dsig:DigestValue>gqY26Yq4xakRU3rO94FwwWt21SFicL7u38Qcr9EkwUA=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Presentation.exe" size="27584">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Presentation.exe" size="42432">
       <assemblyIdentity name="Presentation" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>H5Fs4irJNRc1flD5bE0gUcBo4gPlZP88csDmNhMfc6Q=</dsig:DigestValue>
+        <dsig:DigestValue>K0ylfCHr7ukjhQoWIOlu9YiGyed2M5Cfvl19NcEVkeo=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

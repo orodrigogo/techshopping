@@ -14,6 +14,7 @@ namespace DataTransferObject
         public double UnitCost { get; set; }
         public double PercentageProfit { get; set; }
         public double SalePrice { get; set; }
+        public int Quantity { get; set; }
         public bool Active { get; set; }
     }
 }

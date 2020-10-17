@@ -22,3 +22,5 @@ C:\Users\SENAC\Documents\AULAS REMOTAS\UNIFAFIBE\_2 SEGUNDO SEMESTRE\5 - [SÁBAD
 C:\Users\SENAC\Documents\AULAS REMOTAS\UNIFAFIBE\_2 SEGUNDO SEMESTRE\5 - [SÁBADO] - DP Programação IV\AULA_PROGIV\techshopping\Presentation\obj\Debug\Presentation.exe.manifest
 C:\Users\SENAC\Documents\AULAS REMOTAS\UNIFAFIBE\_2 SEGUNDO SEMESTRE\5 - [SÁBADO] - DP Programação IV\AULA_PROGIV\techshopping\Presentation\obj\Debug\Presentation.application
 C:\Users\SENAC\Documents\AULAS REMOTAS\UNIFAFIBE\_2 SEGUNDO SEMESTRE\5 - [SÁBADO] - DP Programação IV\AULA_PROGIV\techshopping\Presentation\obj\Debug\Presentation.FrmProductList.resources
+C:\Users\SENAC\Documents\AULAS REMOTAS\UNIFAFIBE\_2 SEGUNDO SEMESTRE\5 - [SÁBADO] - DP Programação IV\AULA_PROGIV\techshopping\Presentation\obj\Debug\Presentation.FrmSale.resources
+C:\Users\SENAC\Documents\AULAS REMOTAS\UNIFAFIBE\_2 SEGUNDO SEMESTRE\5 - [SÁBADO] - DP Programação IV\AULA_PROGIV\techshopping\Presentation\obj\Debug\Presentation.FrmSaleHistory.resources

@@ -8,9 +8,26 @@ namespace Presentation
 {
     public partial class FrmProductList : Form
     {
-        public FrmProductList()
+        public Product productSelected = null;
+
+
+        public FrmProductList(TypeAction typeAction)
         {
             InitializeComponent();
+
+            if(typeAction == TypeAction.Select)
+            {
+                btnEdit.Visible = false;
+                btnNew.Visible = false;
+                btnSelect.Visible = true;
+            }
+
+            if(typeAction == TypeAction.Search)
+            {
+                btnEdit.Visible = true;
+                btnNew.Visible = true;
+                btnSelect.Visible = false;
+            }
 
             LoadProducts();
         }
@@ -57,6 +74,29 @@ namespace Presentation
                 DialogResult result = frmProduct.ShowDialog();
                 if (result == DialogResult.OK)
                     LoadProducts();
+            }
+        }
+
+        private void btnSelect_Click(object sender, EventArgs e)
+        {
+            if(dgvProducts.SelectedRows.Count == 0)
+            {
+                MessageBox.Show("Você precisa clicar no produto para selecionar!");
+            }
+            else
+            {
+                int row = dgvProducts.CurrentRow.Index;
+
+                productSelected = new Product();
+                productSelected.Id = Convert.ToInt32(dgvProducts["id", row].Value);
+                productSelected.Description = dgvProducts["product_description", row].Value.ToString();
+                productSelected.CurrentQuantity = Convert.ToInt32(dgvProducts["current_quantity", row].Value);
+                productSelected.UnitType = new UnitType();
+                productSelected.UnitType.Id = Convert.ToInt32(dgvProducts["unit_type", row].Value);
+                productSelected.UnitType.Description = dgvProducts["unit_description", row].Value.ToString();
+                productSelected.SalePrice = Convert.ToDouble(dgvProducts["sale_price", row].Value);
+
+                this.DialogResult = DialogResult.OK;
             }
         }
     }
